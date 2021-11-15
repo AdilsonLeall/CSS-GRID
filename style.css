@@ -36,8 +36,17 @@ body {
     grid-row-start: 4;
     grid-row-end: 6;
 }
+<<<<<<< HEAD
 
 .item0 {
     grid-column-start: 1;
     grid-column-end: 3;
 }
+=======
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+brababb
+>>>>>>> a565bc0a6402b5b5563675b2e5fa691301724ba1
