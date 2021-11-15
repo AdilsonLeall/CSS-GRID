@@ -1,14 +1,26 @@
 body {
-    background-color: #ccc;
 }
 .container {
+    background-color: #ccc;
     display: grid;
+    gap: 15px ;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px 15px;
 }
 .item {
     background-color:blue;
     border-radius: 10px;
     padding: 20px;
     font-size: 25px;
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px){
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
 }
